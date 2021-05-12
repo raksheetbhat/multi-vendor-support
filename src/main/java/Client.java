@@ -9,5 +9,9 @@ public class Client {
         Vendor v1 = new Proxy("vonage");
         v1.generateToken();
         v1.createSession();
+
+        Vendor v2 = new Proxy("tokbox");
+        v2.generateToken();
+        v2.createSession();
     }
 }

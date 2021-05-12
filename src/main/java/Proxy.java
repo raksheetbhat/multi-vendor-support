@@ -11,6 +11,7 @@ public class Proxy implements Vendor {
     static {
         vendorMap.put("agora", new Agora());
         vendorMap.put("vonage", new Vonage());
+        vendorMap.put("tokbox", new Tokbox());
     }
 
     public Proxy(String type) {
